@@ -30,6 +30,7 @@ export default class Matrix extends Component {
   render() {
     return (
       <div id="app">
+        {/* send a callback function? */}
         <ColorSelector setSelectedColor={this.setSelectedColor} />
         <div id="matrix">
           {this.genMatrix()}
